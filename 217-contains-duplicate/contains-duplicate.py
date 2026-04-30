@@ -6,7 +6,6 @@ class Solution:
             if num in in_set:
                 return True
             
-            else:
-                in_set.add(num)
+            in_set.add(num)
         
         return False
