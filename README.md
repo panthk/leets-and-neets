@@ -1,2 +1,2 @@
 # leets-and-neets
-all the greats did leet and neet
+all the greats do leet and neet
