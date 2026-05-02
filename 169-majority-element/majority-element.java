@@ -14,12 +14,10 @@ class Solution {
             if (num == candidate)
             {
                 count++;
+                continue;
             }
 
-            else
-            {
-                count--;
-            }
+            count--;
 
         }
 
