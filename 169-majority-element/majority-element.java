@@ -4,15 +4,14 @@ class Solution {
         int candidate = nums[0];
         int count = 0; 
 
-        for (int i = 0; i < nums.length; i++)
+        for (int num : nums)
         {
             if (count == 0)
             {
-                System.out.println('e');
-                candidate = nums[i];
+                candidate = num;
             }
 
-            if (nums[i] == candidate)
+            if (num == candidate)
             {
                 count++;
             }
