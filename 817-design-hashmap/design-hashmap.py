@@ -6,7 +6,7 @@ class Node:
 
 class MyHashMap:
     def __init__(self):
-        self.arr = [Node() for i in range(10**3)]
+        self.arr = [Node() for i in range(10**2)]
 
     def put(self, key: int, value: int) -> None:
         cur = self.arr[key % len(self.arr)]
