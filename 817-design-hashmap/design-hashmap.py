@@ -6,7 +6,7 @@ class Node:
 
 class MyHashMap:
     def __init__(self):
-        self.arr = [Node() for i in range(10**2)]
+        self.arr = [Node() for i in range(10**3)]
 
     def put(self, key: int, value: int) -> None:
         cur = self.arr[key % len(self.arr)]
@@ -34,11 +34,3 @@ class MyHashMap:
                 cur.next = cur.next.next
                 return
             cur = cur.next
-        
-
-
-# Your MyHashMap object will be instantiated and called as such:
-# obj = MyHashMap()
-# obj.put(key,value)
-# param_2 = obj.get(key)
-# obj.remove(key)
