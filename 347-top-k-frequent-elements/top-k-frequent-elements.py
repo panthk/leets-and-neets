@@ -10,9 +10,10 @@ class Solution:
 
         mostK = []
         for i in freq[::-1]:
-          if i != []:
             for num in i:
               mostK.append(num)
               if (len(mostK) == k):
                 print(len(mostK))
                 return mostK
+
+        
